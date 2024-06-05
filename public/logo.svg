@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 61px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+        font-family: ComicSansMS, 'Comic Sans MS';
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        font-size: 37.8px;
+      }
+
+      .cls-3 {
+        fill: #169fb1;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-3" x="4.5" y="4.5" width="90.9" height="90.9" rx="13.6" ry="13.6"/>
+  <text class="cls-1" transform="translate(23.1 62.3)"><tspan x="0" y="0">M</tspan></text>
+  <text class="cls-2" transform="translate(34.9 69.8) rotate(81)"><tspan x="0" y="0">J</tspan></text>
+</svg>
