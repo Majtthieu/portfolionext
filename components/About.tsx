@@ -5,18 +5,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import Marquee from "react-fast-marquee";
+import skills from "../app/data/skills.json";
 import { Button } from "./ui/button";
 import { Card } from "./ui/card";
 
-const skillData = [
-  { text: "React", icon: "/about/react.svg" },
-  { text: "Next", icon: "/about/next.svg" },
-  { text: "Vue", icon: "/about/vue.svg" },
-  { text: "Tailwind", icon: "/about/tailwind.svg" },
-  { text: "Node", icon: "/about/node.svg" },
-  { text: "Express", icon: "/about/express.svg" },
-  { text: "MongoDB", icon: "/about/mongodb.svg" },
-];
+const skillData = skills;
 
 const About = () => {
   return (

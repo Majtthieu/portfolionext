@@ -1,0 +1,30 @@
+[
+    {
+        "text": "React",
+        "icon": "/about/react.svg"
+    },
+    {
+        "text": "Next",
+        "icon": "/about/next.svg"
+    },
+    {
+        "text": "Vue",
+        "icon": "/about/vue.svg"
+    },
+    {
+        "text": "Tailwind",
+        "icon": "/about/tailwind.svg"
+    },
+    {
+        "text": "Node",
+        "icon": "/about/node.svg"
+    },
+    {
+        "text": "Express",
+        "icon": "/about/express.svg"
+    },
+    {
+        "text": "MongoDB",
+        "icon": "/about/mongodb.svg"
+    }
+]

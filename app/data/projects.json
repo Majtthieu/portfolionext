@@ -1,0 +1,42 @@
+[
+    {
+        "image": "/work/kasa.png",
+        "category": "react js",
+        "name": "Kasa",
+        "description": "Application de réservation de logements entre particuliers.",
+        "link": "https://asak.vercel.app/",
+        "github": "https://github.com/Majtthieu/OpenclassroomsProject2"
+    },
+    {
+        "image": "/work/grimoire.png",
+        "category": "express js",
+        "name": "Mon vieux grimoire",
+        "description": "Développement du backend d'un site de notation de livres.",
+        "link": "",
+        "github": "https://github.com/Majtthieu/OpenclassroomsProject2"
+    },
+    {
+        "image": "/work/sophie.png",
+        "category": "javascript",
+        "name": "Sophie Bluel",
+        "description": "Création, sans framework, d'une modale d'administration pour un portfolio.",
+        "link": "",
+        "github": "https://github.com/Majtthieu/OpenclassroomsProject2"
+    },
+    {
+        "image": "/work/nina.png",
+        "category": "SEO",
+        "name": "Nina Carducci",
+        "description": "Optimisation des performances et du référencement d'un site de photographe.",
+        "link": "https://majtthieu.github.io",
+        "github": "https://github.com/Majtthieu/majtthieu.github.io"
+    },
+    {
+        "image": "/work/booki.png",
+        "category": "html/css",
+        "name": "Booki",
+        "description": "Intégration d'une maquette pour un site d'hébergements de vacances.",
+        "link": "",
+        "github": "https://github.com/Majtthieu/OpenclassroomsProject"
+    }
+]
