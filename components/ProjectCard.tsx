@@ -26,6 +26,7 @@ const ProjectCard = ({ project }: { project: any }) => {
               <Link
                 href={project.link}
                 className="bg-secondary w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200"
+                aria-label={`Lien vers le projet ${project.name}`}
               >
                 <Link2Icon className="text-white" />
               </Link>
@@ -34,6 +35,7 @@ const ProjectCard = ({ project }: { project: any }) => {
               <Link
                 href={project.github}
                 className="bg-secondary w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-300"
+                aria-label={`Lien vers le dépôt GitHub du projet ${project.name}`}
               >
                 <RiGithubLine className="text-white text-[22px]" />
               </Link>
@@ -45,7 +47,7 @@ const ProjectCard = ({ project }: { project: any }) => {
         <Badge className="uppercase text-sm font-medium mb-2 absolute top-4 left-5">
           {project.category}
         </Badge>
-        <h4 className="h4 mb-1">{project.name}</h4>
+        <h3 className="h4 mb-1">{project.name}</h3>
         <p className="text-muted-foreground text-lg">{project.description}</p>
       </div>
     </Card>

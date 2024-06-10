@@ -14,16 +14,27 @@ const icons = [
   {
     path: "https://www.linkedin.com/in/matthieu-jankowiak/",
     name: <RiLinkedinFill />,
+    aria: "LinkedIn",
   },
-  { path: "https://github.com/Majtthieu", name: <RiGithubFill /> },
+  {
+    path: "https://github.com/Majtthieu",
+    name: <RiGithubFill />,
+    aria: "GitHub",
+  },
 ];
 
 const Socials = ({ containerStyles, iconsStyles }: SocialsProps) => {
   return (
     <div className={`${containerStyles}`}>
       {icons.map((icon, index) => (
-        <Link href={icon.path} key={index}>
-          <div className={`${iconsStyles}`}>{icon.name}</div>
+        <Link
+          href={icon.path}
+          key={index}
+          aria-label={`Lien vers ${icon.aria}`}
+        >
+          <div className={`${iconsStyles}`} aria-hidden="true">
+            {icon.name}
+          </div>
         </Link>
       ))}
     </div>
