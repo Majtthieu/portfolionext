@@ -24,17 +24,17 @@ const Form = () => {
     event.preventDefault();
 
     if (
-      process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID &&
-      process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID &&
-      process.env.NEXT_PUBLIC_EMAILJS_USER_ID &&
+      process.env.EMAILJS_SERVICE_ID &&
+      process.env.EMAILJS_TEMPLATE_ID &&
+      process.env.EMAILJS_USER_ID &&
       form.current
     ) {
       emailjs
         .sendForm(
-          process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
-          process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+          process.env.EMAILJS_SERVICE_ID,
+          process.env.EMAILJS_TEMPLATE_ID,
           form.current,
-          process.env.NEXT_PUBLIC_EMAILJS_USER_ID
+          process.env.EMAILJS_USER_ID
         )
         .then(
           (result) => {

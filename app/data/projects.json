@@ -38,5 +38,13 @@
         "description": "Intégration d'une maquette pour un site d'hébergements de vacances.",
         "link": "",
         "github": "https://github.com/Majtthieu/OpenclassroomsProject"
+    },
+    {
+        "image": "/work/pfoliovue.png",
+        "category": "vue js",
+        "name": "Portfolio V1",
+        "description": "Portfolio première version, responsive et à partir de zéro. ",
+        "link": "https://mjpf.vercel.app/",
+        "github": "https://github.com/Majtthieu/portfolio"
     }
 ]

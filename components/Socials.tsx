@@ -11,8 +11,11 @@ type SocialsProps = {
 };
 
 const icons = [
-  { path: "/", name: <RiLinkedinFill /> },
-  { path: "/", name: <RiGithubFill /> },
+  {
+    path: "https://www.linkedin.com/in/matthieu-jankowiak/",
+    name: <RiLinkedinFill />,
+  },
+  { path: "https://github.com/Majtthieu", name: <RiGithubFill /> },
 ];
 
 const Socials = ({ containerStyles, iconsStyles }: SocialsProps) => {
