@@ -43,9 +43,9 @@ const About = () => {
                 <Button>Contactez-moi</Button>
               </Link>
               <div className="border-b border-border"></div>
-              <h4 className="text-xl font-semibold mb-2 xl:text-left">
+              <h3 className="text-xl font-semibold mb-2 xl:text-left">
                 J&apos;utlise ces technologies :
-              </h4>
+              </h3>
               <Marquee pauseOnHover>
                 <div className="flex">
                   {skillData.map((item, index) => {
