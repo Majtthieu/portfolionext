@@ -28,7 +28,10 @@ const ProjectCard = ({ project }: { project: any }) => {
                 className="bg-secondary w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200"
                 aria-label={`Lien vers le projet ${project.name}`}
               >
-                <Link2Icon className="text-white" />
+                <Link2Icon
+                  className="text-white"
+                  aria-label="icône lien démo"
+                />
               </Link>
             )}
             {project.github && (
@@ -37,7 +40,10 @@ const ProjectCard = ({ project }: { project: any }) => {
                 className="bg-secondary w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-300"
                 aria-label={`Lien vers le dépôt GitHub du projet ${project.name}`}
               >
-                <RiGithubLine className="text-white text-[22px]" />
+                <RiGithubLine
+                  className="text-white text-[22px]"
+                  aria-label="icône Github"
+                />
               </Link>
             )}
           </div>

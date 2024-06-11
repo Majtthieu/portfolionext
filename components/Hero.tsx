@@ -22,7 +22,7 @@ const Hero = () => {
             <div className="flex flex-col gap-y-3 gap-x-3 md:flex-row mx-auto xl:mx-0 mb-12">
               <Link href="/contact">
                 <Button className="gap-x-2">
-                  Contactez-moi <Send size={18} />
+                  Contactez-moi <Send size={18} aria-label="icône de message" />
                 </Button>
               </Link>
               <a
@@ -32,7 +32,11 @@ const Hero = () => {
                 rel="noopener noreferrer"
               >
                 <Button variant="secondary" className="gap-x-2">
-                  Mon CV <Download size={18} />
+                  Mon CV{" "}
+                  <Download
+                    size={18}
+                    aria-label="icône de téléchargement pour CV"
+                  />
                 </Button>
               </a>
             </div>
@@ -46,7 +50,10 @@ const Hero = () => {
           </div>
         </div>
         <div className="hidden md:flex absolute left-[49%] bottom-44 xl:bottom-12 animate-bounce">
-          <RiArrowDownCircleLine className="text-4xl text-primary" />
+          <RiArrowDownCircleLine
+            className="text-4xl text-primary"
+            aria-label="flèche vers le bas invitant au scroll"
+          />
         </div>
       </div>
     </section>

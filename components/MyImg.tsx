@@ -6,7 +6,13 @@ import Image from "next/image";
 const MyImg = ({ imgSrc }: { imgSrc: string }) => {
   return (
     <div className="for-morphing">
-      <Image src={imgSrc} alt="" width={500} height={500} priority />
+      <Image
+        src={imgSrc}
+        alt="portrait de Matthieu"
+        width={500}
+        height={500}
+        priority
+      />
     </div>
   );
 };
