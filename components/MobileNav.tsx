@@ -11,12 +11,7 @@ const MobileNav = () => {
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <AlignJustify
-          className="cursor-pointer"
-          aria-label="Menu"
-          aria-expanded={false}
-          aria-haspopup={true}
-        />
+        <AlignJustify className="cursor-pointer" aria-label="Menu" />
       </SheetTrigger>
       <SheetContent>
         <div className="flex flex-col items-center justify-between h-full py-8">

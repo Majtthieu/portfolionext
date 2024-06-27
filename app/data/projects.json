@@ -40,10 +40,18 @@
         "github": "https://github.com/Majtthieu/OpenclassroomsProject"
     },
     {
+        "image": "/work/pointri.png",
+        "category": "react native",
+        "name": "Pointri",
+        "description": "POC application de signalement de problèmes des points de recyclage.",
+        "link": "",
+        "github": "https://github.com/Majtthieu/pointri"
+    },
+    {
         "image": "/work/pfoliovue.png",
         "category": "vue js",
         "name": "Portfolio V1",
-        "description": "Portfolio première version, responsive et à partir de zéro. ",
+        "description": "Portfolio première version, responsive et à partir de zéro.",
         "link": "https://mjpf.vercel.app/",
         "github": "https://github.com/Majtthieu/portfolio"
     }
